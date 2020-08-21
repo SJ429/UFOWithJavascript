@@ -26,10 +26,10 @@ function getStats() {
   // Prevent the page from refreshing
   d3.event.preventDefault();
 
- //seltect the imput element and get the HTML mode
+ //Select the imput element and get the HTML mode
   var inputElement =d3.select('#datetime');
 
-  //Get the valu property of the input element
+  //Get the value property of the input element
   var inputValue = inputElement.property('value');
 
   console.log(inputValue);  

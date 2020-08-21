@@ -18,15 +18,14 @@ data.forEach(function(tableData) {
 
 // Listen to event and filter 
   var button = d3.select('#filter-btn');
-  button.on('click', getData);
-  // form.on('submit', getData);
-  function getData() {
+  button.on('click', getStats);
+  function getStats() {
   
     // Prevent the page from refreshing
     d3.select('tbody').html('');
     d3.event.preventDefault();
  
-   
+   //Get the value property of the input elements
     var datetime = d3.select('#datetime');
     var city = d3.select('#city');
     var state = d3.select('#state');
@@ -64,12 +63,12 @@ data.forEach(function(tableData) {
       filteredData = tableData.filter(data => data.country === inputCountry);}
   
   
+     // Append and filter data
     // Display the filtered dataset
      filteredData.forEach((tableData) => {
       console.log(tableData);
         var row = tbody.append('tr');
-  
-      Object.entries(tableData).forEach(([key, value]) => {
+        Object.entries(tableData).forEach(([key, value]) => {
         console.log(key, value);
         var cell = row.append('td');
         cell.text(value);
