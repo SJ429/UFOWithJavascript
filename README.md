@@ -1,5 +1,6 @@
 
-JavaScript and DOM Manipulation 
+### JavaScript and DOM Manipulation
+
 Website is at https://sj429.github.io/javascript-challenge/
 
 This project demonstrates the use of Javascript to create an interactive website, specifically using D3.js to collect HTML form elements in the form of DOMs and adding event triggers to elements on the page filter the given dataset based on user entry. 
