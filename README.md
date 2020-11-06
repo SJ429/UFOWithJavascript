@@ -5,6 +5,8 @@ This project was to use JavaScript to create an interactive website.  Specifical
 
 
 ![](/static/images/Capture_level%202%20filtered%20by%20shape.PNG)
+
+
 A webpage for UFO sightings can be found at  https://sj429.github.io/UFOWithJavascript/
 
 
