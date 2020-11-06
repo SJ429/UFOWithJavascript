@@ -21,7 +21,7 @@ The Website allows the user to enter a date in the date field and filter the tab
 
 Additionally, the user can filter and search for UFO sightings using the following criteria based on the following table columns:
 
-## Multiple Search Categories
+### Search Categories
 
         date/time
 
